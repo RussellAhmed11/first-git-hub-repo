@@ -13,6 +13,13 @@ a{
     margin-top: 10px;
     display: inline-block;
 }
+a:hover{
+    background: none;
+    border: 2px solid orangered;
+    border-radius: 3px;
+    color: black;
+    transition: 3s all;
+}
 p{
     text-align: justify;
 }
@@ -71,14 +78,6 @@ span{
 #goals{
     background: #fff4d6;
 }
-footer{
-    background: #0b0d17;
-}
-footer h1{
-    text-align: center;
-    color: white;
-    padding-top: 20px;
-}
 .me_my_team{
     display: flex;
     width: 90%;
@@ -94,7 +93,6 @@ footer h1{
 }
 form{
     width: 500px;
-    
     border-radius: 10px;
     box-shadow:10px 10px 40px gray; 
     margin-left: 400px;
@@ -115,6 +113,14 @@ form textarea{
     background-color: rgb(239, 235, 245);
     font-size: 15px; 
     padding: 10px 10px;
+}
+footer{
+    background: #0b0d17;
+}
+footer h1{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
 }
 footer p{
     text-align: center;
