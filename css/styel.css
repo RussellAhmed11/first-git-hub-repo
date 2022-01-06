@@ -1,4 +1,123 @@
-
- .hello{
-     background: red;
- }
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    padding: 10px 40px;
+    border: 2px solid orangered;
+    background-image: linear-gradient(orange,red,orange);
+    color: white;
+    border-radius: 3px;
+    margin-top: 10px;
+    display: inline-block;
+}
+p{
+    text-align: justify;
+}
+span{
+    font-size: 40px;
+    color: orangered;
+}
+.title_area{
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 80px;
+}
+.title_itm{
+  border-left: 5px solid orangered;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.title_itm h1{
+   font-size: 40px;
+}
+.title_about p{
+   font-size: 20px;
+   padding-right:30px;
+}
+.title_img img{
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height:550px;
+    width: 550px;
+}
+.my_misson h1{
+    text-align: center;
+}
+.misson_itms{
+    display: flex;  
+}
+.misson_itm{
+    box-shadow:10px 10px 40px gray; 
+    border-radius: 15px;
+    height:300px;
+    width: 20%;
+    margin: 0 auto;
+    padding:20px 20px;
+}
+.misson_itm img{
+    height: 70px;
+    width: 70px;
+}
+#misson{
+    background: #edf5f6;
+}
+#visson{
+    background: #ffeeee;
+}
+#goals{
+    background: #fff4d6;
+}
+footer{
+    background: #0b0d17;
+}
+footer h1{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+.me_my_team{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.me_my_team img{
+    height: 400px;
+    width: 40%;
+    margin: 0 auto;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+form{
+    width: 500px;
+    
+    border-radius: 10px;
+    box-shadow:10px 10px 40px gray; 
+    margin-left: 400px;
+    padding-left:90px;
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(248, 248, 248);
+}
+form input{
+    border-radius: 5px;
+    background-color: rgb(239, 235, 245);
+    font-size: 15px;
+    padding: 10px 10px;
+}
+form textarea{
+    border-radius: 5px;
+    background-color: rgb(239, 235, 245);
+    font-size: 15px; 
+    padding: 10px 10px;
+}
+footer p{
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
